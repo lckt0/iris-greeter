@@ -1,0 +1,19 @@
+{
+    "KPackageStructure": "Plasma/Wallpaper",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "lckt0@protonmail.com",
+                "Name": "lckt0"
+            }
+        ],
+        "Category": "",
+        "Description": "Pitch-black backdrop matched to the iris login screen",
+        "Icon": "preferences-desktop-theme",
+        "Id": "org.lckt0.iris",
+        "License": "LGPL-2.0-or-later",
+        "Name": "iris",
+        "Website": "https://github.com/lckt0/iris-greeter"
+    },
+    "X-KDE-ParentApp": "org.kde.plasmashell"
+}

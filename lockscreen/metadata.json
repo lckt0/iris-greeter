@@ -1,0 +1,18 @@
+{
+    "KPackageStructure": "Plasma/Shell",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "lckt0@protonmail.com",
+                "Name": "lckt0"
+            }
+        ],
+        "Description": "iris lock screen: the login screen's scanner, on the lock screen",
+        "Id": "iris",
+        "License": "LGPL-2.0-or-later",
+        "Name": "iris",
+        "Website": "https://github.com/lckt0/iris-greeter"
+    },
+    "X-KDE-ParentApp": "org.kde.plasmashell",
+    "X-Plasma-APIVersion": "2"
+}

@@ -1,0 +1,1 @@
+../shared/ScanStatus.qml

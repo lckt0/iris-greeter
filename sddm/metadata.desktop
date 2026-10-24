@@ -1,0 +1,23 @@
+[SddmGreeterTheme]
+Name=iris
+Description=Pitch-black iris scanner greeter, paired with the lock screen
+Author=lckt0
+Copyright=(c) 2026, lckt0
+License=LGPL-2.0-or-later
+Type=sddm-theme
+Version=1.0
+Website=https://github.com/lckt0/iris-greeter
+Screenshot=preview.png
+MainScript=Main.qml
+ConfigFile=theme.conf
+TranslationsDirectory=
+Email=lckt0@protonmail.com
+Theme-Id=iris
+Theme-API=2.0
+# Not decoration: SDDM reads this to choose between /usr/bin/sddm-greeter
+# (Qt5) and /usr/bin/sddm-greeter-qt6. Without it the Qt5 greeter is used,
+# which cannot even parse `pragma ComponentBehavior: Bound` on line 1 of
+# Main.qml — the theme fails to load, SDDM falls back to its embedded theme,
+# and that fallback has no layer-shell under kwin_wayland, so the screen stays
+# black with a dead keyboard. tools/check.sh asserts this line.
+QtVersion=6

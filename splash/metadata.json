@@ -1,0 +1,20 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "lckt0@protonmail.com",
+                "Name": "lckt0"
+            }
+        ],
+        "Category": "",
+        "Description": "Carries the iris scanner from the login screen into the session start-up",
+        "Id": "org.lckt0.iris",
+        "License": "LGPL-2.0-or-later",
+        "Name": "iris",
+        "Website": "https://github.com/lckt0/iris-greeter"
+    },
+    "Keywords": "Desktop;Workspace;Appearance;Look and Feel;",
+    "X-Plasma-APIVersion": "2",
+    "X-Plasma-MainScript": "default"
+}

@@ -1,0 +1,1 @@
+../splash/contents/splash/Splash.qml
